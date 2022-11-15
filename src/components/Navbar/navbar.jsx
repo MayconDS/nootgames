@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <Menu right>
+      <Menu width="100%" right>
         <ul>
           <img id="logo2" src={logo2} alt="" />
           <li>
