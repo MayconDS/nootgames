@@ -5,10 +5,6 @@ import logo from "../../imgs/logo.svg";
 import logo2 from "../../imgs/logo2.svg";
 
 const Navbar = () => {
-  function showSettings(Event) {
-    Event.preventDefault();
-  }
-
   return (
     <header>
       <a href="/">
@@ -46,11 +42,15 @@ const Navbar = () => {
             <a href="">CLIENTES</a>
           </li>
           <li>
-            <button className="blue-dark">ESTOU SOBRE LOREM IPSUM</button>
+            <a href="https://www.noot.com.br/">
+              <button className="blue-dark">ESTOU SOBRE LOREM IPSUM</button>
+            </a>
           </li>
         </ul>
       </Menu>
-      <button className="blue">ESTOU SOBRE LOREM IPSUM</button>
+      <a target="_blank" href="https://www.noot.com.br/">
+        <button className="blue">ESTOU SOBRE LOREM IPSUM</button>
+      </a>
     </header>
   );
 };

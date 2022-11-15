@@ -13,7 +13,10 @@ const BannerFooter = () => {
         <div className="container__article">
           <h1>A CAMADA DE PROTEÇÃO EM LOREM IPSUM.</h1>
           <img src={protagonistFooter} alt="" />
-          <button className="blue-dark">ESTOU SOBRE LOREM IPSUM</button>
+          <a target="_blank" href="https://www.noot.com.br/">
+            {" "}
+            <button className="blue-dark">ESTOU SOBRE LOREM IPSUM</button>
+          </a>
         </div>
       </div>
     </article>

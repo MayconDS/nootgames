@@ -46,7 +46,10 @@ function App() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <button className="blue">CADASTRAR-SE</button>
+          <a target="_blank" href="https://www.noot.com.br/">
+            {" "}
+            <button className="blue">CADASTRAR-SE</button>
+          </a>
         </div>
         <img
           data-aos-duration="1000"
@@ -112,7 +115,10 @@ function App() {
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu.
               </p>
-              <button className="blue-dark">CADASTRAR-SE</button>
+              <a target="_blank" href="https://www.noot.com.br/">
+                {" "}
+                <button className="blue-dark">CADASTRAR-SE</button>
+              </a>
             </div>
             <img
               data-aos-delay="150"
@@ -160,7 +166,10 @@ function App() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
             </p>
-            <button className="blue">ENTRAR EM CONTATO</button>
+            <a target="_blank" href="https://www.noot.com.br/">
+              {" "}
+              <button className="blue">ENTRAR EM CONTATO</button>
+            </a>
           </div>
         </div>
       </section>
