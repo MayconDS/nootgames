@@ -81,7 +81,13 @@
     height: 102px;
   }
 }
-@media (max-width: 780px) {
+@media (max-width: 890px) {
+  #box__gray {
+    transform: rotate(90deg);
+    margin-top: 20px;
+    height: 520px;
+    width: 120%;
+  }
   .sideLeft .texts h1 {
     width: 100%;
     font-size: 40px;
@@ -102,13 +108,7 @@
   }
 }
 
-@media (max-width: 700px) {
-  #box__gray {
-    transform: rotate(90deg);
-    margin-top: 20px;
-    height: 520px;
-    width: 120%;
-  }
+@media (max-width: 790px) {
   .sideLeft .texts p {
     text-align: center;
     margin-left: 50px;
@@ -137,5 +137,17 @@
   #box__gray {
     height: 420px;
     width: 125%;
+  }
+}
+
+@media (max-width: 500px) {
+  #box__gray {
+    height: 380px;
+    width: 130%;
+  }
+  .sideRight .card {
+    padding: 1rem;
+    width: 147px;
+    height: 102px;
   }
 }

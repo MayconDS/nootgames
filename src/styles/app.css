@@ -11,11 +11,11 @@ section.intro #steve {
   position: absolute;
   right: 0;
   top: 280px;
-  max-width: 434px;
+  max-width: 534px;
   width: 100%;
 }
 section.intro #monkey {
-  max-width: 434px;
+  max-width: 534px;
   width: 100%;
 }
 
@@ -207,6 +207,7 @@ footer .container__footer span {
 }
 
 /* Media Queries */
+
 @media (max-width: 1400px) {
   section .intro__content h1 {
     font-size: 40px;
