@@ -367,6 +367,9 @@ footer .container__footer span {
   section.benefits .container__benefits .grid__2 {
     grid-template-columns: 1fr;
   }
+  section.benefits .container__benefits {
+    margin-top: 450px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -388,7 +391,13 @@ footer .container__footer span {
     width: 90%;
     text-align: center;
   }
-  section.benefits {
-    margin-top: 240px;
+  section.benefits .container__benefits {
+    margin-top: 370px;
+  }
+}
+
+@media (max-width: 600px) {
+  section.benefits .container__benefits {
+    margin-top: 250px;
   }
 }

@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <section className="intro">
+      <section id="#" className="intro">
         <img
           data-aos-delay="150"
           data-aos-duration="1000"
@@ -60,10 +60,10 @@ function App() {
           alt=""
         />
       </section>
-      <article className="box">
+      <article id="clientes" className="box">
         <BoxGray />
       </article>
-      <section className="benefits">
+      <section id="funcionalidades" className="benefits">
         <div
           data-aos-delay="150"
           data-aos-duration="1000"
@@ -131,7 +131,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="about">
+      <section id="sobre" className="about">
         <div
           data-aos-delay="150"
           data-aos-duration="1000"

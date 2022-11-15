@@ -13,16 +13,16 @@ const Navbar = () => {
       <nav>
         <ul className="list">
           <li>
-            <a href="">HOME</a>
+            <a href="#">HOME</a>
           </li>
           <li>
-            <a href="">SOBRE</a>
+            <a href="#sobre">SOBRE</a>
           </li>
           <li>
-            <a href="">FUNCIONALIDADES</a>
+            <a href="#funcionalidades">FUNCIONALIDADES</a>
           </li>
           <li>
-            <a href="">CLIENTES</a>
+            <a href="#clientes">CLIENTES</a>
           </li>
         </ul>
       </nav>
@@ -30,16 +30,16 @@ const Navbar = () => {
         <ul>
           <img id="logo2" src={logo2} alt="" />
           <li>
-            <a href="">HOME</a>
+            <a href="#">HOME</a>
           </li>
           <li>
-            <a href="">SOBRE</a>
+            <a href="#sobre">SOBRE</a>
           </li>
           <li>
-            <a href="">FUNCIONALIDADES</a>
+            <a href="#funcionalidades">FUNCIONALIDADES</a>
           </li>
           <li>
-            <a href="">CLIENTES</a>
+            <a href="#clientes">CLIENTES</a>
           </li>
           <li>
             <a href="https://www.noot.com.br/">
