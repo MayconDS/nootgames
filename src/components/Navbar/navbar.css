@@ -90,9 +90,11 @@ header nav {
 }
 
 @media (max-width: 750px) {
-  header #logo2 {
+  header #logo2,
+  header #logo {
     display: block;
     height: 30px;
+    margin-left: -65px;
   }
 
   header #logo {
