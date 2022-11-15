@@ -56,16 +56,18 @@
 
 @media (max-width: 1100px) {
   .container-box {
-    padding: 0 5.5rem;
+    gap: 30px;
   }
   #box__gray {
     width: 90%;
   }
   .sideLeft .texts h1 {
-    font-size: 40px;
+    font-size: 37px;
+    line-height: 40px;
+    width: 30%;
   }
   .sideLeft .texts p {
-    width: 80%;
+    width: 100%;
   }
   .sideRight .card {
     max-width: 163px;

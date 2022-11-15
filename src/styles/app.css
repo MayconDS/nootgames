@@ -44,10 +44,11 @@ article.box {
   margin-top: 300px;
 }
 /* NEW SECTION */
+
 section.benefits .container__benefits {
   display: flex;
   flex-direction: column;
-
+  margin-top: 200px;
   align-items: center;
   gap: 10px;
 }
@@ -387,6 +388,6 @@ footer .container__footer span {
     text-align: center;
   }
   section.benefits {
-    margin-top: 140px;
+    margin-top: 240px;
   }
 }
