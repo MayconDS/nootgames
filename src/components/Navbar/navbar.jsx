@@ -3,12 +3,39 @@ import "../../styles/burger.css";
 import "./navbar.css";
 import logo from "../../imgs/logo.svg";
 import logo2 from "../../imgs/logo2.svg";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
+  const [headerActive, setHeaderActive] = useState(false);
+  useEffect(() => {
+    const scrollListener = () => {
+      if (window.scrollY > 10) {
+        setHeaderActive(true);
+      } else {
+        setHeaderActive(false);
+      }
+    };
+    window.addEventListener("scroll", scrollListener);
+    return () => {
+      window.removeEventListener("scroll", scrollListener);
+    };
+  }, []);
+
   return (
-    <header>
+    <header className={headerActive ? "active" : ""}>
       <a href="/">
-        <img id="logo" src={logo} alt="" />
+        <img
+          style={headerActive ? { display: "none" } : { display: "block" }}
+          id="logo"
+          src={logo}
+          alt=""
+        />
+        <img
+          style={headerActive ? { display: "block" } : { display: "none" }}
+          id="logo2"
+          src={logo2}
+          alt=""
+        />
       </a>
       <nav>
         <ul className="list">
@@ -49,7 +76,9 @@ const Navbar = () => {
         </ul>
       </Menu>
       <a target="_blank" href="https://www.noot.com.br/">
-        <button className="blue">ESTOU SOBRE LOREM IPSUM</button>
+        <button className={headerActive ? "blue-dark" : "blue"}>
+          ESTOU SOBRE LOREM IPSUM
+        </button>
       </a>
     </header>
   );
