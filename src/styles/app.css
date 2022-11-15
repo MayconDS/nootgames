@@ -183,40 +183,6 @@ section.about .rightSide2 p {
 footer {
   background-color: #052727;
 }
-footer article {
-  margin-top: 280px;
-  display: flex;
-  padding: 2rem 5rem;
-  width: 100%;
-}
-
-footer article .card__article {
-  position: relative;
-  background-image: url("../imgs/bg-footer.png");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 333px;
-  margin-top: -205px;
-}
-
-footer article .card__article .container__article {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer article .card__article .container__article h1 {
-  color: var(--color-green-dark);
-  line-height: 55px;
-  text-align: left;
-  font-weight: 500;
-}
-
-footer article .card__article .container__article img {
-  width: 571px;
-
-  margin-top: -70px;
-}
 
 footer .container__footer {
   padding: 1rem 5rem;

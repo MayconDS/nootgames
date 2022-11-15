@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar/navbar";
 import CardGreen from "./components/card-green/cardGreen";
 
 import logo2 from "./imgs/logo2.png";
-import protagonistFooter from "./imgs/protagonistaFooter.png";
 import minecraft2 from "./imgs/minecraft2.png";
 import gta from "./imgs/gta.png";
 import dragon from "./imgs/dragon.png";
@@ -14,6 +13,7 @@ import steve from "./imgs/steve.png";
 import { cardContent } from "./cardContent";
 
 import "./styles/app.css";
+import BannerFooter from "./components/bannerFooter/bannerFooter";
 
 function App() {
   return (
@@ -109,23 +109,7 @@ function App() {
         </div>
       </section>
       <footer>
-        <article>
-          <div className="card__article">
-            <div className="container__article">
-              <h1>
-                A CAMADA
-                <br />
-                DE PROTEÇÃO
-                <br />
-                EM LOREM
-                <br />
-                IPSUM.
-              </h1>
-              <img src={protagonistFooter} alt="" />
-              <button className="blue-dark">ESTOU SOBRE LOREM IPSUM</button>
-            </div>
-          </div>
-        </article>
+        <BannerFooter />
         <div className="container__footer">
           <div id="line__footer"></div>
           <div className="credits">
