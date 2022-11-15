@@ -82,13 +82,7 @@ function App() {
       <section className="about">
         <div className="container__about">
           <div className="leftSide">
-            <h1>
-              SOMOS UMA
-              <br />
-              EXTENSÃO EM
-              <br />
-              LOREM IPSUM.
-            </h1>
+            <h1>SOMOS UMA EXTENSÃO EM LOREM IPSUM.</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -100,18 +94,12 @@ function App() {
             <img src={minecraft2} alt="" />
           </div>
         </div>
-        <div className="container__about">
+        <div className="container__about2">
           <div className="leftSide2">
             <img src={gta} alt="" />
           </div>
           <div className="rightSide2">
-            <h1>
-              PRECISA DE
-              <br />
-              UM LOREM
-              <br />
-              IPSUM?
-            </h1>
+            <h1>PRECISA DE UM LOREM IPSUM?</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
