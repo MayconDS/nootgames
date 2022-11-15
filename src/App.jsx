@@ -172,9 +172,9 @@ function App() {
             </a>
           </div>
         </div>
-      </section>
+      </section>{" "}
       <footer>
-        <BannerFooter />
+        <BannerFooter />{" "}
         <div className="container__footer">
           <div id="line__footer"></div>
           <div className="credits">
