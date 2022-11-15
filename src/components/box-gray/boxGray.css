@@ -6,7 +6,7 @@
   align-items: center;
 }
 .container-box {
-  padding: 0 2.5rem;
+  padding: 0 1.5rem;
   display: flex;
 
   align-items: center;
@@ -27,7 +27,7 @@
 }
 .sideLeft .texts h1 {
   font-size: 48px;
-  width: 60%;
+  width: 100%;
   line-height: 50px;
   font-weight: 500;
   text-align: start;
@@ -82,19 +82,16 @@
   }
 }
 @media (max-width: 890px) {
-  #box__gray {
-    transform: rotate(90deg);
-    margin-top: 20px;
-    height: 520px;
-    width: 120%;
-  }
   .sideLeft .texts h1 {
     width: 100%;
     font-size: 40px;
   }
   #box__gray {
     transform: rotate(90deg);
-    height: 600px;
+    height: 500px;
+    margin-top: 20px;
+
+    width: 100%;
   }
   .sideLeft .texts h1 {
     text-align: center;
