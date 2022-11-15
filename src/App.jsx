@@ -1,6 +1,12 @@
+import "./styles/app.css";
+import "aos/dist/aos.css";
+
+import AOS from "aos";
+
 import BoxGray from "./components/box-gray/boxGray";
 import Navbar from "./components/Navbar/navbar";
 import CardGreen from "./components/card-green/cardGreen";
+import BannerFooter from "./components/bannerFooter/bannerFooter";
 
 import logo2 from "./imgs/logo2.png";
 import minecraft2 from "./imgs/minecraft2.png";
@@ -11,17 +17,26 @@ import monkey from "./imgs/monkey.png";
 import steve from "./imgs/steve.png";
 
 import { cardContent } from "./cardContent";
-
-import "./styles/app.css";
-import BannerFooter from "./components/bannerFooter/bannerFooter";
-
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <Navbar />
       <section className="intro">
-        <img id="monkey" src={monkey} alt="" />
-        <div className="intro__content">
+        <img
+          data-aos-delay="150"
+          data-aos-duration="1000"
+          data-aos="fade-right"
+          id="monkey"
+          src={monkey}
+          alt=""
+        />
+        <div
+          data-aos-delay="150"
+          data-aos-duration="1000"
+          data-aos="fade-up"
+          className="intro__content"
+        >
           <h1>
             LOREM IPSUM E MAIS QUE
             <br />
@@ -33,13 +48,25 @@ function App() {
           </p>
           <button className="blue">CADASTRAR-SE</button>
         </div>
-        <img id="steve" src={steve} alt="" />
+        <img
+          data-aos-duration="1000"
+          data-aos-delay="150"
+          data-aos="fade-left"
+          id="steve"
+          src={steve}
+          alt=""
+        />
       </section>
       <article className="box">
         <BoxGray />
       </article>
       <section className="benefits">
-        <div className="container__benefits">
+        <div
+          data-aos-delay="150"
+          data-aos-duration="1000"
+          data-aos="fade-up"
+          className="container__benefits"
+        >
           <h1>
             PROTEÇÃO PARA ATAQUES
             <br />
@@ -63,8 +90,20 @@ function App() {
       <section className="callout">
         <div className="container__callout">
           <div className="ct">
-            <img id="dragon" src={dragon} alt="" />
-            <div className="callout__content">
+            <img
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos="fade-right"
+              id="dragon"
+              src={dragon}
+              alt=""
+            />
+            <div
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos="fade-up"
+              className="callout__content"
+            >
               <h1>TUDO É FEITO EM LOREM IPSUM SEM PROBLEMA ALGUM.</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -75,12 +114,24 @@ function App() {
               </p>
               <button className="blue-dark">CADASTRAR-SE</button>
             </div>
-            <img id="warrior" src={warrior} alt="" />
+            <img
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos="fade-left"
+              id="warrior"
+              src={warrior}
+              alt=""
+            />
           </div>
         </div>
       </section>
       <section className="about">
-        <div className="container__about">
+        <div
+          data-aos-delay="150"
+          data-aos-duration="1000"
+          data-aos="fade-right"
+          className="container__about"
+        >
           <div className="leftSide">
             <h1>SOMOS UMA EXTENSÃO EM LOREM IPSUM.</h1>
             <p>
@@ -94,7 +145,12 @@ function App() {
             <img src={minecraft2} alt="" />
           </div>
         </div>
-        <div className="container__about2">
+        <div
+          data-aos-delay="150"
+          data-aos-duration="1000"
+          data-aos="fade-left"
+          className="container__about2"
+        >
           <div className="leftSide2">
             <img src={gta} alt="" />
           </div>
