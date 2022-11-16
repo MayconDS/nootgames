@@ -402,10 +402,32 @@ footer .container__footer span {
   }
 }
 
+@media (max-width: 436px) {
+  section.about #gta,
+  section.about #minecraft2 {
+    width: 370px;
+  }
+}
+
 @media (max-width: 406px) {
   section.intro #steve {
     position: absolute;
     width: 300px;
     top: 750px;
+  }
+
+  section.callout .container__callout .ct #warrior {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 306px) {
+  section.callout .container__callout .callout__content h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  section.about #gta,
+  section.about #minecraft2 {
+    width: 270px;
   }
 }

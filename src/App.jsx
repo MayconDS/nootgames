@@ -148,7 +148,7 @@ function App() {
             </p>
           </div>
           <div className="rightSide">
-            <img src={minecraft2} alt="" />
+            <img id="minecraft2" src={minecraft2} alt="" />
           </div>
         </div>
         <div
@@ -158,7 +158,7 @@ function App() {
           className="container__about2"
         >
           <div className="leftSide2">
-            <img src={gta} alt="" />
+            <img id="gta" src={gta} alt="" />
           </div>
           <div className="rightSide2">
             <h1>PRECISA DE UM LOREM IPSUM?</h1>
