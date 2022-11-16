@@ -44,3 +44,24 @@
     width: 380px;
   }
 }
+
+@media (max-width: 430px) {
+  .card__green #bg {
+    width: 310px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 360px) {
+  .card__green #bg {
+    width: 280px;
+    height: 180px;
+  }
+  .card__green img {
+    width: 54px;
+  }
+  .card__green p {
+    font-size: 20px;
+    color: var(--color-gray);
+  }
+}
