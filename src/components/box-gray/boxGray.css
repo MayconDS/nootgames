@@ -131,6 +131,9 @@
   }
 }
 @media (max-width: 600px) {
+  .card #gs {
+    width: 125px;
+  }
   #box__gray {
     height: 420px;
     width: 125%;

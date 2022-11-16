@@ -14,6 +14,10 @@ header.active {
   background-color: var(--color-green);
 }
 
+header.active ul li a:hover {
+  color: black;
+}
+
 header #logo {
   height: 40px;
 }
