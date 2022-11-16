@@ -79,7 +79,12 @@ function App() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <div className="grid__2">
+          <div
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos="fade-down"
+            className="grid__2"
+          >
             {cardContent.map((item) => (
               <CardGreen
                 bg={item.bg}
