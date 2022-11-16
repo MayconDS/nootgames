@@ -401,3 +401,11 @@ footer .container__footer span {
     margin-top: 250px;
   }
 }
+
+@media (max-width: 406px) {
+  section.intro #steve {
+    position: absolute;
+    width: 300px;
+    top: 750px;
+  }
+}

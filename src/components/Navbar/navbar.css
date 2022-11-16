@@ -73,14 +73,13 @@ header nav {
   header {
     gap: 1rem;
   }
-  header button.blue,
-  header button.blue-dark {
+  header #outBurger {
     width: 300px;
     margin-left: -70px;
   }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 960px) {
   header .list li {
     display: none;
   }
@@ -100,8 +99,7 @@ header nav {
   header #logo {
     display: none;
   }
-  header button.blue,
-  header button.blue-dark {
+  header #outBurger {
     display: none;
   }
 }

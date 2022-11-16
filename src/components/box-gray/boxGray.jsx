@@ -27,22 +27,22 @@ const BoxGray = () => {
         <div className="sideRight">
           <div className="grid-2">
             <div className="card">
-              <img src={outplay} alt="" />
+              <img id="op" src={outplay} alt="" />
             </div>
             <div className="card">
-              <img src={enxada} alt="" />
+              <img id="enx" src={enxada} alt="" />
             </div>
             <div className="card">
-              <img src={alta} alt="" />
+              <img id="alta" src={alta} alt="" />
             </div>
             <div className="card">
-              <img src={neephost} alt="" />
+              <img id="nh" src={neephost} alt="" />
             </div>
             <div className="card">
-              <img src={gamersclub} alt="" />
+              <img id="gs" src={gamersclub} alt="" />
             </div>
             <div className="card">
-              <img src={fluxo} alt="" />
+              <img id="fx" src={fluxo} alt="" />
             </div>
           </div>
         </div>

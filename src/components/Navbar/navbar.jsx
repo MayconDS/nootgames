@@ -70,13 +70,15 @@ const Navbar = () => {
           </li>
           <li>
             <a href="https://www.noot.com.br/">
-              <button className="blue-dark">ESTOU SOBRE LOREM IPSUM</button>
+              <button id="inBurger" className="blue-dark">
+                ESTOU SOBRE LOREM IPSUM
+              </button>
             </a>
           </li>
         </ul>
       </Menu>
       <a target="_blank" href="https://www.noot.com.br/">
-        <button className={headerActive ? "blue-dark" : "blue"}>
+        <button id="outBurger" className={headerActive ? "blue-dark" : "blue"}>
           ESTOU SOBRE LOREM IPSUM
         </button>
       </a>
